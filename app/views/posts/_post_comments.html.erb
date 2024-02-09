@@ -1,0 +1,7 @@
+<div class="post border-accent">
+  <%= yield %>
+  <section class="post--comments fs-400 border-neutral">
+    <h3 class="ff-headings fw-bold fs-500 border-heading-neutral">Recent Comments</h3>
+    <%= render_comments(post.most_recent_comments) %>
+  </section>
+</div>

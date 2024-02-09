@@ -1,0 +1,14 @@
+# pack-refs with: peeled fully-peeled sorted 
+2c37053a8923e606be7e08a865f86e51edca5bae refs/remotes/origin/add-authentication
+8021e7aa9eb339abcef1fbff6ba10453fa7dccf2 refs/remotes/origin/api-endpoints
+caf6e8aeb4e8e40c644da1687cb1e873c9849c8d refs/remotes/origin/app-controllers
+38823e8c0b554a912de6ce0c9ef0a947915e9098 refs/remotes/origin/app-forms
+58ed799109359bb27d2dc7983b52b7e3df64438a refs/remotes/origin/app-views
+195934701e91f906f375ae2ec718cd8b5662c71a refs/remotes/origin/authorization-rules
+b00e1a8f0f7428bc56fd041d76ba6ad05818683b refs/remotes/origin/controllers-specs
+a37f905bc15adfdb371b762da87d823fa72e9a7a refs/remotes/origin/dev
+960a4ac47e152698baf1ac365f4528989c6468f3 refs/remotes/origin/initialize-data-model
+7e01fb048d612e33b42eb9ca3ccaf99bfae75198 refs/remotes/origin/integration-specs
+521cd2e2bfd1e6f31fd7099a67f13d7f310f5ee2 refs/remotes/origin/main
+9147fb97b7ac0fedf727c52f418405dfff4ec8a4 refs/remotes/origin/processing-data
+5d02aa4b9ee0181cd36293301c522ce817b5b525 refs/remotes/origin/validations-specs

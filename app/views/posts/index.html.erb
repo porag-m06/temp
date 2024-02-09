@@ -1,0 +1,8 @@
+<section class="hero fs-700 flex">
+  <%= render partial: 'users/user_hero', locals: { user: @user } %>
+</section>
+<section class="user-posts fs-400 border-primary">
+  <h2 class="ff-headings fw-bold fs-700">All Posts</h2>
+  <%= render_all_posts %>
+</section>
+<%= render partial: 'application/buttons', locals: { user: @user } %>

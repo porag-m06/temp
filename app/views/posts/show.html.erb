@@ -1,0 +1,21 @@
+<section class="post fs-300 border-primary bg-white">
+  <h2 class="ff-headings fs-600 full-post">
+    <span class="fw-bold full-post__number">Post #<%= @post.id %></span> | <%= @post.title %>
+  </h2>
+  <h3 class="fw-bold fs-700 post__author">by <span class="fw-regular"><%= @post.author.name %></span></h3>
+  <div class="post__counters">
+    <%= render partial: 'application/counter', locals: {
+    counter_name: 'Comments',
+    counter_value: @post.comments_counter } %>
+    <%= render partial: 'application/counter', locals: {
+    counter_name: 'Likes',
+    counter_value: @post.likes_counter } %>
+  </div>
+  <p class="full-post__text fs-400"> <%= @post.text %> </p>
+
+  <div class="post--comments__all fs-400 border-neutral">
+    <h3 class="ff-headings fw-bold fs-500 border-heading-neutral">Post Comments</h3>
+    <%= render_comments(@post.comments) %>
+  </div>
+</section>
+<%= render partial: 'application/buttons', locals: { user: @post.author, post: @post } %>
