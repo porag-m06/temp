@@ -14,3 +14,6 @@
 [branch "app-forms"]
 	remote = origin
 	merge = refs/heads/app-forms
+[branch "integration-specs"]
+	remote = origin
+	merge = refs/heads/integration-specs
